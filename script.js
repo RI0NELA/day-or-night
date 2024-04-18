@@ -19,7 +19,7 @@ function updateTime() {
   document.getElementById("second").textContent = timeChecker.getSeconds();
 }
 
-let hour = timeChecker.GetHours();
+let hour = timeChecker.getHours();
 
 if (hour === 19 || hour > 19) {
   time.innerText = "Oh no its night, and plus its  AM!!";
