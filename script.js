@@ -22,7 +22,7 @@ function updateTime() {
 let hour = timeChecker.getHours();
 
 if (hour === 19 || hour > 19) {
-  time.innerText = "Oh no its night, and plus its  AM!!";
+  time.innerText = `Oh no its night, and plus its ${hour} AM!!`;
   time.style.fontSize = "32px";
 
   document.getElementById("grass").style.display = "none";
